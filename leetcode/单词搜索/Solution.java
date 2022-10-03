@@ -1,7 +1,7 @@
-package leetcode;
+package leetcode.单词搜索;
 
 import java.util.*;
-public class Problem79 {
+public class Solution {
     // 1. 由于一个格子只能访问一次，所以要使用一个boolean数组防止再一次递归中对于相同的格子重复访问
     // 2. 由于递归的逻辑的限制，导致一次递归只能以一个起点开始递归寻找路径，不可能一次递归遍历完所有格子作为起点的路径，所以必须在最外层使用双重循环遍历所有的格子，并依次作为起点开始递归
     public boolean exist(char[][] board, String word) {

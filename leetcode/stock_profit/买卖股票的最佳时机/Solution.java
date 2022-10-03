@@ -1,6 +1,6 @@
-package leetcode.stock_profit;
+package leetcode.stock_profit.买卖股票的最佳时机;
 
-public class Problem121 {
+public class Solution {
     // 方法一：动态规划 但是时间复杂度比较大
     public int maxProfitONe(int[] prices) {
         if(prices == null || prices.length == 0){

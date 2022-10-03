@@ -1,6 +1,8 @@
-package leetcode.rebuild_tree;
+package leetcode.rebuild_tree.从中序与后序遍历序列构造二叉树;
 
-public class Problem106 {
+import datastruct.TreeNode;
+
+public class Solution {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         if(inorder == null || postorder == null || inorder.length != postorder.length || inorder.length == 0){
             return null;

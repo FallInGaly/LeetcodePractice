@@ -1,6 +1,6 @@
-package leetcode.stock_profit;
+package leetcode.stock_profit.买卖股票的最佳时机含手续费;
 
-public class Problem714 {
+public class Solution {
     // 这个题目，题目中没有说可以在同一天既买入又卖出就说明一天只能操作一次，所以可以使用动态规划
     // 股票买卖问题，使用两个状态值（0表示持有，1表示不持有）完全可以满足要求，没有必要再新增一个2：不操作，没有任何意义
     public int maxProfit(int[] prices, int fee) {

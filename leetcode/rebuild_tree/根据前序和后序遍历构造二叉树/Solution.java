@@ -1,6 +1,8 @@
-package leetcode.rebuild_tree;
+package leetcode.rebuild_tree.根据前序和后序遍历构造二叉树;
 
-public class Problem889 {
+import datastruct.TreeNode;
+
+public class Solution {
     // 按照前序与后序的话，如果父节点只有左右一棵子树那么无法判断到底是左子树还是右子树，以下这种情况默认为为左子树
     public TreeNode constructFromPrePost(int[] preorder, int[] postorder) {
         if(preorder == null || postorder == null || preorder.length != postorder.length || preorder.length == 0){

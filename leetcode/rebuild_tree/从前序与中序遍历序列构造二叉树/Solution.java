@@ -1,7 +1,9 @@
-package leetcode.rebuild_tree;
+package leetcode.rebuild_tree.从前序与中序遍历序列构造二叉树;
 
- // Definition for a binary tree node.
-public class Problem105 {
+import datastruct.TreeNode;
+
+// Definition for a binary tree node.
+public class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if(preorder == null || inorder == null || preorder.length != inorder.length || preorder.length == 0){
             return null;

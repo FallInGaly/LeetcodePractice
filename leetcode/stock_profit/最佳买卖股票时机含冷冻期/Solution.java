@@ -1,6 +1,6 @@
-package leetcode.stock_profit;
+package leetcode.stock_profit.最佳买卖股票时机含冷冻期;
 
-public class Problem309 {
+public class Solution {
     // 搞清楚状态是什么？
     // 搞清楚状态是如何转移的,是由哪些之前的状态转移过来的？是怎么之前的状态转移过来的？
     public int maxProfit(int[] prices) {
