@@ -1,4 +1,4 @@
-package swordfinger_offer.stock_profit;
+package leetcode.stock_profit;
 
 public class Problem714 {
     // 这个题目，题目中没有说可以在同一天既买入又卖出就说明一天只能操作一次，所以可以使用动态规划

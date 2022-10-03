@@ -1,4 +1,4 @@
-package swordfinger_offer.stock_profit;
+package leetcode.stock_profit;
 
 public class Problem122 {
     // 可以随意买卖的话，那么只要价格在上涨（明天价格比今天贵）就一直先买再卖（卖了的当天要再买以备明天再卖出）就可以；

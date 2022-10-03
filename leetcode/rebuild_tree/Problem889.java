@@ -1,4 +1,4 @@
-package swordfinger_offer.rebuild_tree;
+package leetcode.rebuild_tree;
 
 public class Problem889 {
     // 按照前序与后序的话，如果父节点只有左右一棵子树那么无法判断到底是左子树还是右子树，以下这种情况默认为为左子树

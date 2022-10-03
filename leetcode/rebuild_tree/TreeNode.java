@@ -1,4 +1,4 @@
-package swordfinger_offer.rebuild_tree;
+package leetcode.rebuild_tree;
 
 public class TreeNode {
     int val;

@@ -1,4 +1,4 @@
-package swordfinger_offer.rebuild_tree;
+package leetcode.rebuild_tree;
 
  // Definition for a binary tree node.
 public class Problem105 {

@@ -1,4 +1,4 @@
-package swordfinger_offer.stock_profit;
+package leetcode.stock_profit;
 
 public class Problem121 {
     // 方法一：动态规划 但是时间复杂度比较大

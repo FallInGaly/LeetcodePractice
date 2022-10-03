@@ -1,4 +1,4 @@
-package swordfinger_offer;
+package leetcode;
 
 import java.util.*;
 public class Problem79 {
